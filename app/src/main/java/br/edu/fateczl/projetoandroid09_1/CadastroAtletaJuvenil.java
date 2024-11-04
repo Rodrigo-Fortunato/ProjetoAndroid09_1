@@ -16,7 +16,9 @@ import br.edu.fateczl.projetoandroid09_1.controller.ICadastro;
 import br.edu.fateczl.projetoandroid09_1.model.AtletaJuvenil;
 
 public class CadastroAtletaJuvenil extends Fragment {
-
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     private View view;
     private Button btnCadastrarJuvenil;
     private EditText etNomeJuvenil;

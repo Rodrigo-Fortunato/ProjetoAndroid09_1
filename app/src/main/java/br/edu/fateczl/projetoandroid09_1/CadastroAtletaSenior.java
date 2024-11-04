@@ -19,7 +19,9 @@ import br.edu.fateczl.projetoandroid09_1.model.AtletaJuvenil;
 import br.edu.fateczl.projetoandroid09_1.model.AtletaSenior;
 
 public class CadastroAtletaSenior extends Fragment {
-
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     private View view;
     private Button btnCadastrarSenior;
     private EditText etNomeSenior;

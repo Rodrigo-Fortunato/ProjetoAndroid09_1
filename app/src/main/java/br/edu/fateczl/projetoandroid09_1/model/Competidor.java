@@ -1,7 +1,9 @@
 package br.edu.fateczl.projetoandroid09_1.model;
 
 public class Competidor {
-
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     protected String nome;
     protected String dataNascimento;
 

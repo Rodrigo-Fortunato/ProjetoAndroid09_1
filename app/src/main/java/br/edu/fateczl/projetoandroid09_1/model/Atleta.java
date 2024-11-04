@@ -3,7 +3,9 @@ package br.edu.fateczl.projetoandroid09_1.model;
 import androidx.annotation.NonNull;
 
 public class Atleta extends Competidor{
-
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     private String academia;
 
     @NonNull

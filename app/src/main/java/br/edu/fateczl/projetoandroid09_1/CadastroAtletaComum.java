@@ -13,7 +13,9 @@ import androidx.fragment.app.Fragment;
 import br.edu.fateczl.projetoandroid09_1.controller.CadastroComum;
 import br.edu.fateczl.projetoandroid09_1.controller.ICadastro;
 import br.edu.fateczl.projetoandroid09_1.model.Atleta;
-
+/*
+ *@author:<Rodrigo Fortunato Martins Neves>
+ */
 public class CadastroAtletaComum extends Fragment {
     private View view;
     private Button btnCadastrarComum;

@@ -6,6 +6,9 @@ import java.util.List;
 import br.edu.fateczl.projetoandroid09_1.model.AtletaJuvenil;
 
 public class CadastroJuvenil  implements ICadastro<AtletaJuvenil> {
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
     private List<AtletaJuvenil> lista;
 
     public CadastroJuvenil() {

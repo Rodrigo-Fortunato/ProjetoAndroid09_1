@@ -16,6 +16,9 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 public class MainActivity extends AppCompatActivity {
+    /*
+     *@author:<Rodrigo Fortunato Martins Neves>
+     */
 private Fragment fragment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
