@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cadastro de Atletas</string>
+    <string name="etNome">Nome</string>
+    <string name="etData_nascimento">Data de Nascimento</string>
+    <string name="etBairro">Bairro</string>
+    <string name="etAnos_pratica">Anos de Prática</string>
+    <string name="cbProblemas_cardiacos">Problemas Cardíacos</string>
+    <string name="etAcademia">Academia</string>
+    <string name="etRecorde">Recorde (segundos)</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="nome">Rodrigo Fortunato Martins Neves</string>
+    <string name="ra">1110482313035</string>
+    <string name="menuCadastroComum">Atleta Comum</string>
+    <string name="menuCadastroJuvenil">Atleta Juvenil</string>
+    <string name="menuCadastroSenior">Atleta Senior</string>
+
+
+</resources>

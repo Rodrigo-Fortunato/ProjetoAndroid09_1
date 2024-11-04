@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/atletaComumLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroAtletaComum">
+
+    <EditText
+        android:id="@+id/etDataNascimentoComum"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etData_nascimento"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/etNomeComum"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etNome"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <EditText
+        android:id="@+id/etBairroComum"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etBairro"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+    <EditText
+        android:id="@+id/etAcademia"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etAcademia"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <EditText
+        android:id="@+id/etRecordeSegundos"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/etRecorde"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/btnCadastrarComum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCadastrar"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/ra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ra"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

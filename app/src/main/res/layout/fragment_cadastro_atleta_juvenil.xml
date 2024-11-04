@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/atletaJuvenilLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroAtletaJuvenil">
+
+    <TextView
+        android:id="@+id/ra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/ra"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/nome"
+        app:layout_constraintStart_toStartOf="@+id/ra"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAnosPraticaJuvenil"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="@string/etAnos_pratica"
+        android:importantForAutofill="no"
+        android:inputType="numberSigned"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/etDataNascimentoJuvenil"
+        app:layout_constraintTop_toBottomOf="@+id/etDataNascimentoJuvenil" />
+
+    <EditText
+        android:id="@+id/etNomeJuvenil"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/etNome"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ra" />
+
+    <EditText
+        android:id="@+id/etDataNascimentoJuvenil"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="@string/etData_nascimento"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textColorHint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/etBairroJuvenil"
+        app:layout_constraintTop_toBottomOf="@+id/etBairroJuvenil" />
+
+    <EditText
+        android:id="@+id/etBairroJuvenil"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="75dp"
+        android:ems="10"
+        android:hint="@string/etBairro"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomeJuvenil" />
+
+    <Button
+        android:id="@+id/btnCadastrarJuvenil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:text="@string/btnCadastrar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etAnosPraticaJuvenil" />
+</androidx.constraintlayout.widget.ConstraintLayout>
